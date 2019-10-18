@@ -18,4 +18,11 @@ public class OrganizationController {
 		return organizationRepository.findAll();
 		
 	}
+	
+	@RequestMapping("/test")
+	public String test(){
+		return "test";
+		
+	}
+	
 }
